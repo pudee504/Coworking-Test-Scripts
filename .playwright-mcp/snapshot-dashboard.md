@@ -1,0 +1,228 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e37]:
+    - generic [ref=e40]:
+      - heading "Coworking Hub" [level=2] [ref=e43]
+      - generic [ref=e46]:
+        - generic [ref=e48]:
+          - generic [ref=e50]: FB
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: Feby Berame
+            - generic [ref=e53]:
+              - img [ref=e54]
+              - text: System Admin
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - button "Dashboard" [ref=e58]:
+              - img [ref=e59]
+              - text: Dashboard
+          - listitem [ref=e62]:
+            - button "Tap In/Out" [ref=e63]:
+              - img [ref=e64]
+              - text: Tap In/Out
+          - listitem [ref=e68]:
+            - button "Client Management" [ref=e69]:
+              - img [ref=e70]
+              - text: Client Management
+          - listitem [ref=e75]:
+            - button "Packages" [ref=e76]:
+              - img [ref=e77]
+              - text: Packages
+          - listitem [ref=e81]:
+            - button "Bookings" [ref=e82]:
+              - img [ref=e83]
+              - text: Bookings
+        - generic [ref=e85]:
+          - button "My Profile" [ref=e86] [cursor=pointer]:
+            - img
+            - text: My Profile
+          - button "Sign Out" [ref=e87] [cursor=pointer]:
+            - img
+            - text: Sign Out
+    - main [ref=e88]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - button "Toggle Sidebar" [ref=e92] [cursor=pointer]:
+            - img
+            - generic [ref=e93]: Toggle Sidebar
+          - heading "Dashboard" [level=1] [ref=e94]
+        - generic [ref=e97]:
+          - text: Feby Berame (System Admin)
+          - img [ref=e99]
+      - generic [ref=e102]:
+        - combobox [ref=e104]:
+          - generic: Today
+          - img [ref=e105]
+        - generic [ref=e107]:
+          - heading "Space Capacity" [level=3] [ref=e109]:
+            - img [ref=e110]
+            - text: Space Capacity
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]: Current Occupancy
+              - generic [ref=e117]: 2 / 50 Occupied
+            - generic [ref=e120]:
+              - generic [ref=e121]: 4% Occupied
+              - generic [ref=e122]: 48 Available
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - heading "Quick Actions" [level=3] [ref=e125]
+            - paragraph [ref=e126]: Frequently used actions for efficient management
+          - button "Create Package" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: Create Package
+            - img
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - heading "Clients Overview" [level=3] [ref=e136]:
+                  - img [ref=e137]
+                  - text: Clients Overview
+                - paragraph [ref=e142]: "Total: 156 clients"
+              - button "View More" [ref=e143] [cursor=pointer]:
+                - img
+                - text: View More
+            - generic [ref=e144]:
+              - generic [ref=e147]:
+                - list [ref=e149]:
+                  - listitem [ref=e150]:
+                    - img "Active legend icon" [ref=e151]
+                    - text: Active
+                  - listitem [ref=e153]:
+                    - img "Inactive legend icon" [ref=e154]
+                    - text: Inactive
+                  - listitem [ref=e156]:
+                    - img "Pending legend icon" [ref=e157]
+                    - text: Pending
+                - application [ref=e159]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]: "Active:"
+                  - generic [ref=e163]: "2"
+                - generic [ref=e164]:
+                  - generic [ref=e165]: "New:"
+                  - generic [ref=e166]: "+0"
+          - generic [ref=e167]:
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - heading "Renewals Analytics" [level=3] [ref=e171]:
+                  - img [ref=e172]
+                  - text: Renewals Analytics
+                - paragraph [ref=e175]: Upcoming renewals trend
+              - button "View More" [ref=e176] [cursor=pointer]:
+                - img
+                - text: View More
+            - generic [ref=e177]:
+              - application [ref=e181]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e220]: Jan
+                    - generic [ref=e222]: Feb
+                    - generic [ref=e224]: Mar
+                    - generic [ref=e226]: Apr
+                    - generic [ref=e228]: May
+                    - generic [ref=e230]: Jun
+                  - generic [ref=e231]:
+                    - generic [ref=e233]: "0"
+                    - generic [ref=e235]: "7"
+                    - generic [ref=e237]: "14"
+                    - generic [ref=e239]: "21"
+                    - generic [ref=e241]: "28"
+              - generic [ref=e242]:
+                - generic [ref=e243]: "This Month:"
+                - generic [ref=e244]: 0 Expiring
+          - generic [ref=e245]:
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - heading "Packages Overview" [level=3] [ref=e249]:
+                  - img [ref=e250]
+                  - text: Packages Overview
+                - paragraph [ref=e254]: Package performance metrics
+              - button "View More" [ref=e255] [cursor=pointer]:
+                - img
+                - text: View More
+            - generic [ref=e256]:
+              - application [ref=e260]:
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - generic [ref=e291]: Basic
+                    - generic [ref=e293]: Premium
+                    - generic [ref=e295]: Enterprise
+                    - generic [ref=e297]: Student
+                  - generic [ref=e298]:
+                    - generic [ref=e300]: "0"
+                    - generic [ref=e302]: "15"
+                    - generic [ref=e304]: "30"
+                    - generic [ref=e306]: "45"
+                    - generic [ref=e308]: "60"
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - generic [ref=e311]: "Most Popular:"
+                  - generic [ref=e312]: Premium
+                - generic [ref=e313]:
+                  - generic [ref=e314]: "Active Packages:"
+                  - generic [ref=e315]: "2"
+          - generic [ref=e316]:
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - heading "Bookings Overview" [level=3] [ref=e320]:
+                  - img [ref=e321]
+                  - text: Bookings Overview
+                - paragraph [ref=e323]: Room booking analytics
+              - button "View More" [ref=e324] [cursor=pointer]:
+                - img
+                - text: View More
+            - generic [ref=e325]:
+              - application [ref=e330]
+              - generic [ref=e332]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: "Today:"
+                  - generic [ref=e335]: "0"
+                - generic [ref=e336]:
+                  - generic [ref=e337]: "This Week:"
+                  - generic [ref=e338]: "0"
+        - generic [ref=e339]:
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - heading "Revenue & Expense Tracking" [level=3] [ref=e343]:
+                - img [ref=e344]
+                - text: Revenue & Expense Tracking
+              - paragraph [ref=e346]: Financial performance overview
+            - button "View More" [ref=e347] [cursor=pointer]:
+              - img
+              - text: View More
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - generic [ref=e353]: Revenue
+                    - generic [ref=e354]: ₱125,000
+                  - generic [ref=e357]:
+                    - img [ref=e358]
+                    - text: +15.2% vs last month
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: Expenses
+                    - generic [ref=e364]: ₱45,000
+                  - generic [ref=e367]:
+                    - img [ref=e368]
+                    - text: +5.1% vs last month
+              - application [ref=e375]:
+                - generic [ref=e400]:
+                  - generic [ref=e401]:
+                    - generic [ref=e403]: Jan
+                    - generic [ref=e405]: Feb
+                    - generic [ref=e407]: Mar
+                    - generic [ref=e409]: Apr
+                    - generic [ref=e411]: May
+                    - generic [ref=e413]: Jun
+                  - generic [ref=e414]:
+                    - generic [ref=e416]: ₱0k
+                    - generic [ref=e418]: ₱80k
+                    - generic [ref=e420]: ₱160k
+            - generic [ref=e422]:
+              - generic [ref=e423]: Net Profit
+              - generic [ref=e424]: ₱80,000
+  - region "Notifications alt+T"
+  - alert [ref=e29]: Coworking Hub - Workspace Management
+  - generic [ref=e425]: ₱0k
